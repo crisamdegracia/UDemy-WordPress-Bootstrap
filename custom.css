@@ -1,0 +1,486 @@
+/* COLOR REFFERENCES
+
+Green: #79b044;
+Salmon: #dd5638;
+Blue Gray: #3e4249;
+
+*/
+
+
+/*=== GENEREAL ===*/
+
+* {
+/*    border: 1px solid red;*/
+    
+}
+body {
+    
+    margin-top: 50px !important;
+    font-family: sans-serif , Helvetica ,'Raleway';
+    font-size: 16px;
+}
+ 
+
+/*===GLOBAL===*/
+
+h1,h2,h3,h4,h5 {
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: bold !important;
+}
+
+h1 {
+    font-size: 3em;
+    
+}
+
+h2,h2 {
+    margin: 0 0 40px;
+    
+}
+
+h3 {
+    margin: 20px 0;
+    
+    
+}
+h4 {
+    font-size: 18px;
+    
+}
+
+a:link, a:visited{
+     color:#dd5638;
+    
+}
+a:hover{
+    
+    text-decoration: none !important;
+    color:#c3902c;
+}
+button, input, .btn, a.btn{
+     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color:white;
+    
+}
+
+.btn {
+    font-weight: bold !important;
+    
+    
+}
+
+.btn-danger {
+    background-color: #dd5638;
+    border-color: #d95131;
+    
+}
+
+.btn-success {
+    background: #79b044;
+    border: none;
+    
+}
+.btn-success:focus{
+    outline: none !important;
+}
+
+.btn-success:hover {
+    background: #6a9e3d;
+    border-color: #6a9e3d;
+    
+}
+
+.navbar-collapse ul li{
+    font-weight: bold;
+
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+.modal-content {
+    
+    background:white; 
+}
+
+.badge.social {
+    
+    background: #ccc;
+    font-size: 24px;
+    height: 48px;
+    width: 48px;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px 10px 20px 0;
+    padding: 0 ;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+/*    border-radius:0px 20px 50px 0;  EXPEREMENT THIS!*/
+    
+}
+
+i.fa{
+     margin-top: 10px;
+}
+.badge.social.twitter:hover {
+    background: #55acee;
+    
+}
+.badge.social.facebook:hover {
+    background: #3b5998;
+    
+}
+.badge.social.gplus:hover {
+    background: #db4b39;
+    
+}
+
+blockquote {
+    padding: 0;
+    border: none;
+    font-style: italic;
+    text-align: left;
+    
+}
+blockquote cite {
+    
+    display: block;
+    color:#777;
+    margin: 15px 0 0 0 ;
+}
+
+
+/*===HERO===*/
+
+#hero {
+    background: url('../assets/img/hero-bg.jpg')50% 0 repeat fixed;
+    min-height: 500px;
+    padding:40px 0;
+    color:white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    background-size: cover;
+}
+
+#hero article {
+    width: 100%;
+    text-align: center;
+}
+
+#hero .hero-text {
+    
+    margin-top:30px;
+    
+}
+
+#price-timeline {
+    margin: 30px 0 60px;
+    text-align: center;
+    
+}
+#price-timeline .price.active {
+    background: #dd5638 !important;
+    
+}
+
+#price-timeline .price { 
+    display: inline-block;
+    margin: 0 2% 0 0;
+    width: 30%;
+    background: #3e4249;
+    padding: 10px 20px 30px;
+    position: relative;
+    vertical-align: top;
+    border-radius: 10px;
+    
+}
+  
+
+#price-timeline .price span {
+    background: #101010;
+    display: block;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    position: absolute;
+    bottom: -35px;
+    left:50%;
+    margin-left:-35px;
+}
+
+
+#price-timeline  h4 {
+    margin: 0 0 10px;
+    
+    
+}
+
+#price-timeline small {
+    color:white;
+    font-weight: bold;
+    display: block;
+    
+}
+
+/*===LAYOUT===*/
+
+section {
+    background-color: bisque;
+    padding: 80px 0;
+}
+
+.section-header{
+    text-align: center;
+    
+}
+
+section h2{
+    
+    margin:20px 0 40px;
+}
+section h3 {
+    margin: 30px 0 10px;
+    
+}
+#optin {
+    background: #3e4249;
+    padding:20px 0;
+    color: white;
+     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: 1.2em; 
+    
+}
+
+#optin p{
+    
+    margin:7px 0 0 0;
+}
+
+#boost-income {
+    background-color: saddlebrown;
+    color: aliceblue;
+    font-family: cursive;
+}
+
+/*Who Benefits*/
+
+
+#who-benefits {
+        text-align: center;
+        background-color: burlywood;
+}
+
+#who-benefits p {
+    font-family:cursive;
+    font-size: 15px;
+    font-weight: ;
+    
+}
+
+/*Course Features*/
+
+#course-features {
+    text-align: center;
+    background: #3e4249;
+    color:white;
+}
+
+#course-features, h4 {
+    font-family:cursive;
+    font-size: 16px !important;
+    font-weight:normal!important;
+}
+
+/*Custom Icon Sprite*/
+
+i.ci {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: url('assets/img/icon-sprite.png') no-repeat;
+    
+    
+}
+
+.ci.ci-computer  {background-position: 0 0; }
+.ci.ci-watch  {background-position: -40px 0; }
+.ci.ci-calendar  {background-position: -80px 0; }
+.ci.ci-community  {background-position: -120px 0; }
+.ci.ci-instructor  {background-position: -160px 0; }
+.ci.ci-devices  {background-position: -200px 0; }
+
+
+
+/*Final PROJECT FEATURES*/
+
+#project-features .content-header{
+    margin-bottom: 30px;
+    
+}
+
+#project-features {
+    text-align: center;
+    font-family: cursive;
+    
+    
+}
+
+
+/*video Feauture*/
+
+#video-feature {
+    background: url('assets/img/stuff-bg.jpg')50% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*INSTRUCTOR*/
+
+#instructor {
+        /*90% is the position for right// -10px for top */
+    background: white url(assets/img/brad-elvis.png) 90% -10px no-repeat;
+    
+}
+#instructor h2 {
+    
+    margin: 0 0;
+}
+
+#instructor p{
+    
+    font-family: cursive;
+    font-size: 16px;
+    min-width: 100%;
+}
+
+
+#instructor .num {
+    display: table;
+    font-size:30px;
+    font-weight: bold;
+    color: white;
+    line-height: 24px;
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    background-color: salmon;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+#instructor .num .num  {
+    display: table-cell;
+    vertical-align:middle;
+    
+}
+
+
+
+#instructor .num span {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    
+}
+ 
+
+/*TESTIMONIALS :S*/
+
+
+#testimonials {
+    background: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#testimonials img{
+    border-radius: 100%;
+    
+    
+}
+
+#signup {
+    background: url('assets/img/hipster-stuff.jpg') center center no-repeat fixed;
+    text-align: center;
+    background-size: cover;
+    color: white;
+    padding: 200px 0;
+    
+    
+}
+
+#signup h2 {
+    font-weight: normal !important;
+    
+}
+
+#signup h2 strong {
+    border-bottom:2px solid #dd5638;
+    
+}
+
+#signup .btn {
+    font-size: 24px;
+    
+    
+}
+
+#signup a {
+    
+    text-decoration: none;
+}
+
+
+#footer {
+    
+    background: black;
+    color: white;
+    padding: 20px 0 10px;
+    font-size: 12px;
+    
+}
+
+#footer p {
+    margin:0;
+    
+    
+}
+
+footer a:link, footer a:visited{
+    color:white;
+    
+}
+
+footer a:hover {
+    color: #dd5638;
+    
+}
+footer li.signup-link a {
+  color:#dd5638;
+    
+}
+footer li.signup-link a:hover {
+  font-weight: bold;
+  text-decoration: none;
+    
+}
