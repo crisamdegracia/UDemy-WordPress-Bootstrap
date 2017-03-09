@@ -51,6 +51,15 @@ h4 {
     
 }
 
+p.lead {
+    
+    font-weight: normal;
+}
+
+p {
+   margin: 0 0 15px; 
+}
+
 a:link, a:visited{
      color:#dd5638;
     
@@ -236,6 +245,11 @@ blockquote cite {
 }
 
 /*===LAYOUT===*/
+
+.row + .row {
+    margin-top:20px;
+    
+}
 
 section {
     background-color: bisque;
@@ -484,3 +498,52 @@ footer li.signup-link a:hover {
   text-decoration: none;
     
 }
+
+/*MEDIA QUERRIES*/
+
+@media screen and ( max-width : 991px){
+    #instructor .container {
+        background: rgba(255,255,255,0.8);
+    }
+}
+
+@media screen and (max-width:768px){
+    #logo-badge {
+        width:50%;
+    }
+    #optin p {
+        margin: 0 0  10px;
+    }
+    #video-feature iframe {
+        height: 240px;
+    }
+}
+
+@media screen and ( max-width: 568px ){
+    #instructor .num .num {
+        
+        height: 100px;
+        width: 100px;
+        font-size: 20px;
+        
+    }
+
+   #instructor .num {
+        
+        height: 80px !important;
+        width: 80px !important;
+        font-size: 18px !important;
+        
+    }
+    
+    #instructor .num span {
+        font-size: 16px;
+    }
+    
+    #hero .price h4{
+        font-size: 14px !important;
+        
+    }
+
+}
+
