@@ -749,18 +749,10 @@ footer li.signup-link a:hover {
         background: rgba(255,255,255,0.8);
     }
     
-    .resource {
-        width: 48%;
-        margin-right: 2%;
-        min-height: 800px;
-        padding-bottom: 10px;
-        padding-top: 10px;
-        margin-bottom: -2px;
-        margin-top: -2px;
-    }
+   
 }
 
-@media screen and (max-width:768px){
+@media screen and ( max-width:768px ){
     #logo-badge {
         width:50%;
     }
@@ -771,10 +763,17 @@ footer li.signup-link a:hover {
         height: 240px;
     }
     
-    .resource {
-        padding-bottom: -2px;
-        margin-bottom: 0px;
+     .resource {
+        width: 45% !important;
+        margin-right: 2% !important;
+        min-height: 800px !important;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-bottom: -2px;
+        margin-top: -2px;
+        text-align: center;
     }
+    
 }
 
 @media screen and ( max-width: 568px ){
@@ -802,10 +801,14 @@ footer li.signup-link a:hover {
         font-size: 14px !important;
         
     }
+    
     .resource {
-     
-        float: none;
+        width: 100% !important;
+        margin-right: 0;
+        min-height: 400px !important;
     }
+    
+    
 
 }
 
@@ -866,22 +869,15 @@ footer li.signup-link a:hover {
 /*========RESOURCES==========*/
 
 
-#primary {
-    
-}
-
 .resource {
    
     width: 30%;
     float: left;
-    margin: 0 5% 0 0;
+    margin: 0 5% 0  0;
     
 }
 
-.resource .btn-success {
-     text-align: center;
-    margin-left: 15%;
-}
+
 .resource:nth-child(3){
     margin-right: -1%;
     
@@ -900,9 +896,16 @@ footer li.signup-link a:hover {
     
 }
 
+.resource .btn {
+    
+    white-space: normal;
+    margin: auto auto;
+}
 
+/*
 .resource h3 {
     text-align: center
     
 }
 
+*/
